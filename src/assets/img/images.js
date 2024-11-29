@@ -1,0 +1,1 @@
+export {default as b1} from './pokedex.png'

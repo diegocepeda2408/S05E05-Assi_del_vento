@@ -1,0 +1,119 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f9f9f9, #e0e7ff); /* Fallback gradient */
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background 0.3s ease-in-out; /* Smooth transition for background */
+}
+
+.details__return {
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.details__return:hover {
+    text-decoration: underline;
+}
+
+.details__image-container {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.details__image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.details__id {
+    display: block;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.details__name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.details__stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    margin: 1.5rem 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.details__stat-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details__stat-label {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 0.5rem;
+    margin: 0.5rem;
+}
+
+.details__stat-value {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.details__attributes {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 700px;
+}
+
+.details__attribute-group {
+    margin-bottom: 2rem;
+}
+
+.details__attribute-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.details__attribute-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.details__attribute-item {
+    background: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #333;
+    text-transform: capitalize;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
